@@ -1,3 +1,5 @@
+/* Default */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,30 @@ html {
   min-height: 100%;
 }
 
+h1 {
+  font-size: 6vw;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
 body {
   background-color: #beb9ab;
+  font-family: monospace;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section Caculadora */
+
+.calculadora {
+  width: 40vw;
+  height: 30vw;
+  background-color: wheat;
 }
