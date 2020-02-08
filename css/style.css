@@ -13,7 +13,7 @@ html {
 }
 
 h1 {
-  font-size: vw;
+  font-size: 4vh;
   font-weight: normal;
   margin-bottom: 0.5em;
   text-align: center;
@@ -47,7 +47,7 @@ body {
 /* Section Caculadora */
 
 .calculadora {
-  width: 50vw;
+  width: 50vh;
   /* background-color: wheat; */
   background-color: #000;
   border: 2px solid #000;
@@ -59,7 +59,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding: 0.4em 0.5em;
-  font-size: 6vw;
+  font-size: 6vh;
   font-weight: normal;
   color: #fff;
 }
@@ -74,7 +74,7 @@ body {
   padding: 0.5em 0.5em;
   background-color: #d6ba86;
   border: 1px solid #000;
-  font-size: 5vw;
+  font-size: 5vh;
   cursor: pointer;
 }
 
