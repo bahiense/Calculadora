@@ -18,7 +18,6 @@ function buttonClick(value) {
 
 function handleNumber(value) {
   if (buffer === "0") {
-    buffer = value;
     console.log(buffer);
   } else {
     buffer += value;
