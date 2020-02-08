@@ -13,7 +13,7 @@ html {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: vw;
   font-weight: normal;
   margin-bottom: 0.5em;
   text-align: center;
@@ -32,10 +32,73 @@ body {
   align-items: center;
 }
 
+.half {
+  width: 50%;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.three-quarter {
+  width: 75%;
+}
+
 /* Section Caculadora */
 
 .calculadora {
-  width: 40vw;
-  height: 30vw;
-  background-color: wheat;
+  width: 50vw;
+  /* background-color: wheat; */
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+.result {
+  background-color: #000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.4em 0.5em;
+  font-size: 6vw;
+  font-weight: normal;
+  color: #fff;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items button {
+  padding: 0.5em 0.5em;
+  background-color: #d6ba86;
+  border: 1px solid #000;
+  font-size: 5vw;
+  cursor: pointer;
+}
+
+.items button:focus {
+  outline: none;
+}
+
+.items button:hover {
+  background-color: #f4daa8;
+}
+
+.items button:active {
+  background-color: #b79e6f;
+}
+
+.items button:last-child {
+  background-color: #df974c;
+  color: #fff;
+}
+
+.items button:last-child:hover {
+  background-color: #f4b87c;
+}
+
+.items button:last-child:active {
+  background-color: #c48240;
 }
